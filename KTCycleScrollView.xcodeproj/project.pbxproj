@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28F1FFC39017769FEABD0F7A /* Pods_KTCycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23AE94044BB4D68F698D780 /* Pods_KTCycleScrollView.framework */; };
+		361BB1671F78B10000CC4496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB1661F78B10000CC4496 /* AppDelegate.swift */; };
+		361BB16E1F78B10000CC4496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361BB16D1F78B10000CC4496 /* Assets.xcassets */; };
+		361BB1711F78B10000CC4496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361BB16F1F78B10000CC4496 /* LaunchScreen.storyboard */; };
+		361BB1861F78B15E00CC4496 /* KTCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB1791F78B15D00CC4496 /* KTCycleCell.swift */; };
+		361BB1871F78B15E00CC4496 /* KTCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB17A1F78B15D00CC4496 /* KTCycleScrollView.swift */; };
+		361BB1881F78B15E00CC4496 /* KTProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB17B1F78B15E00CC4496 /* KTProxy.swift */; };
+		361BB19A1F78B37500CC4496 /* DemoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB1921F78B37500CC4496 /* DemoListController.swift */; };
+		361BB19B1F78B37500CC4496 /* LocalImgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB1931F78B37500CC4496 /* LocalImgController.swift */; };
+		361BB19C1F78B37500CC4496 /* NoEndlessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB1941F78B37500CC4496 /* NoEndlessController.swift */; };
+		361BB19D1F78B37500CC4496 /* NoPageControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB1951F78B37500CC4496 /* NoPageControlController.swift */; };
+		361BB19E1F78B37500CC4496 /* SBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB1961F78B37500CC4496 /* SBController.swift */; };
+		361BB19F1F78B37500CC4496 /* ServerImgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB1971F78B37500CC4496 /* ServerImgController.swift */; };
+		361BB1A01F78B37500CC4496 /* StoryBoardController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361BB1981F78B37500CC4496 /* StoryBoardController.storyboard */; };
+		361BB1A11F78B37500CC4496 /* ZhiHuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB1991F78B37500CC4496 /* ZhiHuController.swift */; };
+		361BB1A31F78C4DE00CC4496 /* KTNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BB1A21F78C4DE00CC4496 /* KTNavigationBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29068D6DC269C8C25E7ECADE /* Pods-KTCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTCycleScrollView/Pods-KTCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		361BB1631F78B10000CC4496 /* KTCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361BB1661F78B10000CC4496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		361BB16D1F78B10000CC4496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		361BB1701F78B10000CC4496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		361BB1721F78B10000CC4496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361BB1791F78B15D00CC4496 /* KTCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCycleCell.swift; sourceTree = "<group>"; };
+		361BB17A1F78B15D00CC4496 /* KTCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCycleScrollView.swift; sourceTree = "<group>"; };
+		361BB17B1F78B15E00CC4496 /* KTProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTProxy.swift; sourceTree = "<group>"; };
+		361BB1921F78B37500CC4496 /* DemoListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoListController.swift; sourceTree = "<group>"; };
+		361BB1931F78B37500CC4496 /* LocalImgController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalImgController.swift; sourceTree = "<group>"; };
+		361BB1941F78B37500CC4496 /* NoEndlessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoEndlessController.swift; sourceTree = "<group>"; };
+		361BB1951F78B37500CC4496 /* NoPageControlController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoPageControlController.swift; sourceTree = "<group>"; };
+		361BB1961F78B37500CC4496 /* SBController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBController.swift; sourceTree = "<group>"; };
+		361BB1971F78B37500CC4496 /* ServerImgController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerImgController.swift; sourceTree = "<group>"; };
+		361BB1981F78B37500CC4496 /* StoryBoardController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryBoardController.storyboard; sourceTree = "<group>"; };
+		361BB1991F78B37500CC4496 /* ZhiHuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZhiHuController.swift; sourceTree = "<group>"; };
+		361BB1A21F78C4DE00CC4496 /* KTNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTNavigationBar.swift; sourceTree = "<group>"; };
+		721426B85D67C8AF06555C90 /* Pods-KTCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTCycleScrollView/Pods-KTCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		F23AE94044BB4D68F698D780 /* Pods_KTCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361BB1601F78B10000CC4496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F1FFC39017769FEABD0F7A /* Pods_KTCycleScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361BB15A1F78B10000CC4496 = {
+			isa = PBXGroup;
+			children = (
+				361BB1651F78B10000CC4496 /* KTCycleScrollView */,
+				361BB1641F78B10000CC4496 /* Products */,
+				3DE671BE8E9EF63A4086A852 /* Pods */,
+				62BB020582594CB70B0F2C6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		361BB1641F78B10000CC4496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361BB1631F78B10000CC4496 /* KTCycleScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361BB1651F78B10000CC4496 /* KTCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				361BB1781F78B15D00CC4496 /* KTCycleScroll */,
+				361BB1661F78B10000CC4496 /* AppDelegate.swift */,
+				361BB1921F78B37500CC4496 /* DemoListController.swift */,
+				361BB1931F78B37500CC4496 /* LocalImgController.swift */,
+				361BB1941F78B37500CC4496 /* NoEndlessController.swift */,
+				361BB1951F78B37500CC4496 /* NoPageControlController.swift */,
+				361BB1961F78B37500CC4496 /* SBController.swift */,
+				361BB1971F78B37500CC4496 /* ServerImgController.swift */,
+				361BB1981F78B37500CC4496 /* StoryBoardController.storyboard */,
+				361BB1991F78B37500CC4496 /* ZhiHuController.swift */,
+				361BB16D1F78B10000CC4496 /* Assets.xcassets */,
+				361BB16F1F78B10000CC4496 /* LaunchScreen.storyboard */,
+				361BB1721F78B10000CC4496 /* Info.plist */,
+			);
+			path = KTCycleScrollView;
+			sourceTree = "<group>";
+		};
+		361BB1781F78B15D00CC4496 /* KTCycleScroll */ = {
+			isa = PBXGroup;
+			children = (
+				361BB1791F78B15D00CC4496 /* KTCycleCell.swift */,
+				361BB17A1F78B15D00CC4496 /* KTCycleScrollView.swift */,
+				361BB17B1F78B15E00CC4496 /* KTProxy.swift */,
+				361BB1A21F78C4DE00CC4496 /* KTNavigationBar.swift */,
+			);
+			path = KTCycleScroll;
+			sourceTree = "<group>";
+		};
+		3DE671BE8E9EF63A4086A852 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				721426B85D67C8AF06555C90 /* Pods-KTCycleScrollView.debug.xcconfig */,
+				29068D6DC269C8C25E7ECADE /* Pods-KTCycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62BB020582594CB70B0F2C6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F23AE94044BB4D68F698D780 /* Pods_KTCycleScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361BB1621F78B10000CC4496 /* KTCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361BB1751F78B10000CC4496 /* Build configuration list for PBXNativeTarget "KTCycleScrollView" */;
+			buildPhases = (
+				736DB68225071D68439B0EB2 /* [CP] Check Pods Manifest.lock */,
+				361BB15F1F78B10000CC4496 /* Sources */,
+				361BB1601F78B10000CC4496 /* Frameworks */,
+				361BB1611F78B10000CC4496 /* Resources */,
+				3C62DC02CDCABCFFA4FF6A10 /* [CP] Embed Pods Frameworks */,
+				14A09C9EA52AEE2C8A1BB545 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTCycleScrollView;
+			productName = KTCycleScrollView;
+			productReference = 361BB1631F78B10000CC4496 /* KTCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361BB15B1F78B10000CC4496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KEENTEAM;
+				TargetAttributes = {
+					361BB1621F78B10000CC4496 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 361BB15E1F78B10000CC4496 /* Build configuration list for PBXProject "KTCycleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361BB15A1F78B10000CC4496;
+			productRefGroup = 361BB1641F78B10000CC4496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361BB1621F78B10000CC4496 /* KTCycleScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361BB1611F78B10000CC4496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361BB1711F78B10000CC4496 /* LaunchScreen.storyboard in Resources */,
+				361BB16E1F78B10000CC4496 /* Assets.xcassets in Resources */,
+				361BB1A01F78B37500CC4496 /* StoryBoardController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14A09C9EA52AEE2C8A1BB545 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTCycleScrollView/Pods-KTCycleScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C62DC02CDCABCFFA4FF6A10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTCycleScrollView/Pods-KTCycleScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736DB68225071D68439B0EB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361BB15F1F78B10000CC4496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361BB19A1F78B37500CC4496 /* DemoListController.swift in Sources */,
+				361BB1861F78B15E00CC4496 /* KTCycleCell.swift in Sources */,
+				361BB1671F78B10000CC4496 /* AppDelegate.swift in Sources */,
+				361BB1881F78B15E00CC4496 /* KTProxy.swift in Sources */,
+				361BB1871F78B15E00CC4496 /* KTCycleScrollView.swift in Sources */,
+				361BB1A11F78B37500CC4496 /* ZhiHuController.swift in Sources */,
+				361BB19C1F78B37500CC4496 /* NoEndlessController.swift in Sources */,
+				361BB19B1F78B37500CC4496 /* LocalImgController.swift in Sources */,
+				361BB1A31F78C4DE00CC4496 /* KTNavigationBar.swift in Sources */,
+				361BB19E1F78B37500CC4496 /* SBController.swift in Sources */,
+				361BB19F1F78B37500CC4496 /* ServerImgController.swift in Sources */,
+				361BB19D1F78B37500CC4496 /* NoPageControlController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		361BB16F1F78B10000CC4496 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361BB1701F78B10000CC4496 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		361BB1731F78B10000CC4496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		361BB1741F78B10000CC4496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		361BB1761F78B10000CC4496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721426B85D67C8AF06555C90 /* Pods-KTCycleScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KT.KTCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		361BB1771F78B10000CC4496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29068D6DC269C8C25E7ECADE /* Pods-KTCycleScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KT.KTCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361BB15E1F78B10000CC4496 /* Build configuration list for PBXProject "KTCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361BB1731F78B10000CC4496 /* Debug */,
+				361BB1741F78B10000CC4496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361BB1751F78B10000CC4496 /* Build configuration list for PBXNativeTarget "KTCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361BB1761F78B10000CC4496 /* Debug */,
+				361BB1771F78B10000CC4496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361BB15B1F78B10000CC4496 /* Project object */;
+}
