@@ -1,4 +1,4 @@
-![image](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/KTCycleScrollView.png)
+![image](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/appicon.png)
 
 #####[ 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等]
 ------------------------------------------------------------
