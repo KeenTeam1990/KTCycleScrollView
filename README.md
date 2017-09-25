@@ -9,10 +9,6 @@
 
 
 ## Demo 
----
-demo列表
-
-![demo列表](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/demos.png)
 
 ---
 知乎日报
