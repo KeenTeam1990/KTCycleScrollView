@@ -81,7 +81,8 @@ extension ServerImgController: KTCycleScrollViewDelegate
 
 
 # Contact me
-- Weibo: [简书](http://www.jianshu.com/u/77e9dc523648)
+- 简书: [简书](http://www.jianshu.com/u/77e9dc523648)
+- GitHub: [GitHub](https://github.com/KeenTeam1990)
 - Email:  KeenTeam@163.com
 - QQ：812144991
 
