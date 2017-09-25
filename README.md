@@ -1,4 +1,4 @@
-![image](https://github.com/KeenTeam1990/KTCycleScrollView/raw/master/screenshots/KTCycleScrollView.png)
+![image](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/KTCycleScrollView.png)
 
 #####[ 超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等]
 ------------------------------------------------------------
@@ -12,37 +12,37 @@
 ---
 demo列表
 
-![demo列表](https://github.com/KeenTeam1990/KTCycleScrollView/raw/master/screenshots/demos.png)
+![demo列表](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/demos.png)
 
 ---
 知乎日报
 
-![知乎日报](https://github.com/KeenTeam1990/KTCycleScrollView/raw/master/screenshots/知乎日报.gif)
+![知乎日报](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/知乎日报.gif)
 
 ---
 本地图片轮播
 
-![本地图片轮播](https://github.com/KeenTeam1990/KTCycleScrollView/raw/master/screenshots/本地图片轮播.gif)
+![本地图片轮播](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/本地图片轮播.gif)
 
 ---
 网络图片轮播
 
-![网络图片轮播](https://github.com/KeenTeam1990/KTCycleScrollView/raw/master/screenshots/网络图片轮播.gif)
+![网络图片轮播](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/网络图片轮播.gif)
 
 ---
 StoryBoard创建
 
-![StoryBoard创建](https://github.com/KeenTeam1990/KTCycleScrollView/raw/master/screenshots/StoryBoard创建.gif)
+![StoryBoard创建](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/StoryBoard创建.gif)
 
 ---
 不无限轮播
 
-![不无限轮播](https://github.com/KeenTeam1990/KTCycleScrollView/raw/master/screenshots/不无限轮播.gif)
+![不无限轮播](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/不无限轮播.gif)
 
 ---
 不显示pageControl
 
-![不显示pageControl](https://github.com/KeenTeam1990/KTCycleScrollView/raw/master/screenshots/不显示pageControl.gif)
+![不显示pageControl](https://github.com/KeenTeam1990/KTCycleScrollView/blob/master/screenshots/不显示pageControl.gif)
 
 
 ## Installation 
